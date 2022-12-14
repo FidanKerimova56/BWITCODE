@@ -1,12 +1,26 @@
 nav {
   display: flex;
-  padding: 20px 96px;
+  padding: 0 96px;
   justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  height: 84px;
+  background: rgba(255, 255, 255, 0.47);
+  backdrop-filter: blur(7.5px);
+  width: 100%;
+  color: #23272f;
+  z-index: 99;
+}
+
+.logo {
+  width: 175px;
+  object-fit: cover;
 }
 
 ul {
   list-style-type: none;
 }
+
 ul > li {
   display: inline-block;
   font-family: "Poppins";
@@ -20,6 +34,7 @@ ul > li {
 
 ul > li > a {
   text-decoration: none;
+  color: #23272f;
 }
 
 button {
@@ -31,3 +46,30 @@ button {
   border-radius: 8px;
   border: none;
 }
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.nav-link {
+  position: relative;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid var(--primary-btn);
+  transition: all 0.3s ease;
+}
+
+/* .underline {
+  opacity: 0;
+  height: 2px;
+  width: 100%;
+} */
+
+/* @keyframes {
+
+} */

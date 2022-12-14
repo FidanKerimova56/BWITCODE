@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import Navbar from "./components/Navbar/Navbar"
-import Header from './components/Header/Header'
-
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 function App() {
-
   return (
-    <div className="App">
-     <Navbar/>
-     <Header/>
+    <div>
+      <Navbar />
+      <section>
+        <Hero />
+      </section>
+      <section></section>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
