@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  padding: 20px 96px;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+ul > li {
+  display: inline-block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-right: 56px;
+  text-decoration: none;
+}
+
+ul > li > a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #047481;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
