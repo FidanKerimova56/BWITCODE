@@ -1,0 +1,33 @@
+{
+  "Data": [
+    {
+      "WorkTitle": "Web Development",
+      "WorkList": [
+        "Front-End Development",
+        "Back-End Development",
+        "PWA Development",
+        "SPA Website",
+        "E-commerce Website",
+        "Landing Website"
+      ],
+      "WorkIcon": ""
+    },
+    {
+      "WorkTitle": "UI/UX Design",
+      "WorkList": [
+        "UI/UX Wireframing",
+        "Prototyping",
+        "Interaction Design",
+        "Web Design",
+        "Mobile UI/UX Design",
+        "Graphic Design"
+      ],
+      "WorkIcon": ""
+    },
+    {
+      "WorkTitle": "Custom Services",
+      "WorkList": ["Hosting and Domain", "Technical Support"],
+      "WorkIcon": ""
+    }
+  ]
+}
