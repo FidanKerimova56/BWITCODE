@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies/Technologies";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import AboutUs from "./components/AboutUs/AboutUs";
+import WhatDoWeOffer from "./components/WhatDoWeOffer/WhatDoWeOffer"
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       </section>
       <section>
         <AboutUs/>
+      </section>
+      <section>
+        <WhatDoWeOffer/>
       </section>
     </div>
   );

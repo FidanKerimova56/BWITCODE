@@ -1,5 +1,6 @@
 .about-container {
-  padding: 120px 98px 0 96px;
+  padding: 120px 98px 156px 96px;
+  position: relative;
 }
 .about-layout {
   display: flex;
@@ -12,6 +13,7 @@
   font-size: 48px;
   line-height: 150%;
   width: 570px;
+  margin-top: 12px;
 }
 .about-text {
   font-family: "Poppins";
@@ -27,4 +29,13 @@
 .about-pic-part img {
   width: 630px;
   height: 438px;
+}
+
+.bg-about img {
+    width: 854px;
+
+  position: absolute;
+  left: 0;
+  top: 390px;
+  z-index: -1;
 }
