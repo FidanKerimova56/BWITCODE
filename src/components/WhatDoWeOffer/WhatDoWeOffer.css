@@ -76,3 +76,6 @@
   color: #6b7280;
 }
 
+.card:nth-child(4) .card-subtitle {
+  width: 334px;
+}
