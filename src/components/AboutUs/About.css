@@ -3,6 +3,15 @@
 }
 .about-layout {
   display: flex;
+  justify-content: space-between;
+}
+.about-text-part h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  width: 570px;
 }
 .about-text {
   font-family: "Poppins";
