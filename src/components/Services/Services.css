@@ -1,5 +1,7 @@
 .services-container {
-  padding: 120px 0 0 96px;
+  padding: 120px 0 0px 96px;
+  position: relative;
+  height: 875px;
 }
 
 .title {
@@ -57,4 +59,11 @@
   display: flex;
   gap: 24px;
   align-items: center;
+}
+
+.services-container > img {
+  position: absolute;
+  right: 0;
+  top: 595px;
+  z-index: -1;
 }

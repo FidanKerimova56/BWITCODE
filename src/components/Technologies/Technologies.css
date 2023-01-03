@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:wght@300;400&family=Maven+Pro:wght@400;500;600;800&family=Montserrat:wght@300;400;500;600;700;800;900&family=Oswald:wght@700&family=Poppins:wght@400;600&family=Roboto+Slab:wght@100;200;300;700&display=swap');
+
+.technologies-container {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3.subtitle {
+  font-family: "Poppins",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--primary-text);
+  margin-bottom: 20px;
+}
+
+.technologies-secondaryText {
+  width: 831px;
+  text-align: center;
+}
+.slider {
+  width: 100%;
+  height: 187px;
+  background: #edfafa;
+  margin-top: 46px;
+  padding: 45px 96px;
+  overflow: hidden;
+}
+
+

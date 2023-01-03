@@ -3,6 +3,8 @@ import "./Services.css";
 import webDevelopment from "../../assets/icons/web-development.svg";
 import { Data } from "./data.json";
 import { PlusIcon } from "@heroicons/react/24/outline";
+import services from "../../assets/services.png"
+
 
 const Services = () => {
   return (
@@ -34,9 +36,11 @@ const Services = () => {
                 </li>
               ))}
             </ul>
+            
           </div>
         </div>
       </div>
+      <img src={services} alt="bg-service" />
     </div>
   );
 };
