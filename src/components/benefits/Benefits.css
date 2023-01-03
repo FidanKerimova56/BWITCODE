@@ -1,0 +1,61 @@
+.benefits-container {
+  padding: 120px 0 0 96px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.benefits-container > p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #9ca3af;
+}
+
+.benefits-title {
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 48px;
+  color: #020202;
+  margin-bottom: 44px;
+}
+.reason-cont-padding{
+    padding-left: 30px;
+}
+.reason-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  margin-bottom: 15px;
+  color: black;
+  font-family: 'Poppins';
+}
+.reason-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  width: 1183px;
+  margin-bottom: 25px;
+  color: #6b7280;
+}
+hr {
+  margin-bottom: 45px;
+  background: #16bdca;
+}
+.first-line {
+  width: 1044px;
+  height: 3px;
+  margin-left: -97px;
+  border-radius: 0px 3px 3px 0px;
+}
+.second-line {
+  width: 1044px;
+  height: 3px;
+  border-radius: 3px 0px 0px 3px;
+  margin-right: -150px;
+  align-self: flex-end;
+}
+.bg-benefits> img{
+    position: absolute;
+    right: 0;
+    top: 420px;
+}
