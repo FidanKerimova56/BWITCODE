@@ -2,11 +2,14 @@ import React from "react";
 import "./Footer.css";
 import logo2 from "../../assets/logo2.png";
 import socialMedia from "../../assets/social-media.png";
+import { BsTwitter} from "react-icons/bs";
+import { FaFacebookF} from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs"
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <h2>Ready to get started ?</h2>
+      <h3>Ready to get started ?</h3>
       <div style={{ position: "relative" }}>
         <div className="btn-container">
           <button className="btn">Get in touch</button>
@@ -32,9 +35,18 @@ const Footer = () => {
           </ul>
         </div>
         <div className="social-media">
-          <img src={socialMedia} alt="socialMedia" />
+          <a href="#">
+            <FaFacebookF className="socialMedia"/>
+          </a>
+          <a href="#">
+            <BsLinkedin className="socialMedia"/>
+          </a>
+          <a href="#">
+            <BsTwitter className="socialMedia"/>
+          </a>
         </div>
       </div>
+      <p className="author">© All rights recerved • 2022 BWITCODE</p>
     </div>
   );
 };

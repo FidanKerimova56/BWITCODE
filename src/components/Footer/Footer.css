@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 }
-.footer-container h2 {
+.footer-container h3 {
   font-weight: 600;
   font-size: 60px;
   color: #000000;
@@ -21,7 +21,7 @@
   position: relative;
   margin-top: 20px;
   padding: 20px 0;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .btn {
@@ -62,4 +62,25 @@
   border: 2px solid #16bdca;
   background-color: transparent;
   z-index: 49;
+}
+.links{
+  margin-right: -120px;
+}
+.links li {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 90px;
+}
+.socialMedia {
+  margin-right: 42px;
+  width: 25px;
+  height: 25px;
+  color: #047481;
+}
+.author{
+  font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: #9CA3AF;
 }
