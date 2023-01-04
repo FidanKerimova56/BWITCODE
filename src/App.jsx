@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import AboutUs from "./components/AboutUs/AboutUs";
 import WhatDoWeOffer from "./components/WhatDoWeOffer/WhatDoWeOffer"
 import Benefits from "./components/benefits/benefits";
+import Process from "./components/Process/Process";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -30,6 +32,12 @@ function App() {
       </section>
       <section>
         <Benefits/>
+      </section>
+      <section>
+        <Process/>
+      </section>
+      <section>
+        <Footer/>
       </section>
     </div>
   );
